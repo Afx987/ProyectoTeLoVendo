@@ -1,0 +1,52 @@
+    body {
+        background-color: greenyellow;
+    }
+    
+    .nav-item {
+        color: blue;
+        font-size: x-large;
+    }
+    
+    .Azul source {
+        align-items: center;
+    }
+    
+    .Roja source {
+        align-items: center;
+    }
+    
+    .Verde source {
+        align-items: center;
+    }
+    
+    @media screen and (max-width: 800px) {
+        body {
+            background-color: brown;
+            flex-direction: column;
+        }
+    }
+    
+    @media screen and (min-width: 601px) and (max-width: 800px) {
+        body {
+            background-color: green;
+        }
+    }
+    
+    @media screen and (max-width: 455px) {
+        body {
+            width: 100%;
+        }
+        section h1 {
+            font-size: 24px;
+        }
+    }
+    
+    .nav-link {
+        background-color: cyan;
+        border-radius: 10px;
+        border: 1px solid;
+    }
+    
+    .form-vertical {
+        background-color: greenyellow;
+    }
