@@ -2,6 +2,11 @@
         background-color: greenyellow;
     }
     
+    .miTabla td,
+    th {
+        border: 1px solid black;
+    }
+    
     .nav-item {
         color: blue;
         font-size: x-large;
