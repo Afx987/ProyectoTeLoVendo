@@ -1,5 +1,5 @@
     body {
-        background-color: greenyellow;
+        background-color: beige;
     }
     
     .miTabla td,
@@ -8,7 +8,6 @@
     }
     
     .nav-item {
-        color: blue;
         font-size: x-large;
     }
     
@@ -22,6 +21,47 @@
     
     .Verde source {
         align-items: center;
+    }
+    
+    .productos {
+        display: inline-flex;
+        justify-content: space-around;
+        align-content: space-between;
+    }
+    
+    button {
+        position: relative;
+        background-color: #2bd264;
+        border: none;
+        font-size: 28px;
+        color: #FFFFFF;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    
+    button:after {
+        content: "";
+        background: #f1f1f1;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -20px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+    }
+    
+    button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
     }
     
     @media screen and (max-width: 800px) {
@@ -47,7 +87,8 @@
     }
     
     .nav-link {
-        background-color: cyan;
+        color: darkgreen;
+        background-color: gold;
         border-radius: 10px;
         border: 1px solid;
     }
